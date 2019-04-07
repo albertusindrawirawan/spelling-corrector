@@ -1,6 +1,9 @@
-Spelling corrector
+# Spelling Corrector
 
 
-How to use it:
+### Example to use it:
+```
 foo := spelling_corrector.New("model/name.txt")
-bar := foo.Correct("exampleword")
+
+fmt.Println(foo.Correct("exampleword"))
+```
